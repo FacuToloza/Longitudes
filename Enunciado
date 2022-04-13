@@ -5,3 +5,39 @@ veremos Enums
 
 4 estrategias, 
 
+lista finita de elementos con Enums,
+instancia valores que tendre disponibles, en compilacion
+
+ejemplo
+para estados, 4 estados de un alumno ejemplo, lista de estados, no cualquier valor, valores establecidos. pensarlo como instancia predefinida
+no es una clase, parecido, lista finita de elementos
+
+ej
+Color color= Color.ROJO(Color. sale una lista finita de elementos,)
+definida en el enums
+sobre source, new, Enum, 
+Poner nombre del estado
+
+public enum Color{
+ROJO,
+AZUL,
+AMARILLO,
+VERDE,
+GRIS_CLARO,
+....
+(son solo nombres de elementos)
+}
+con esto puedo limitar por ejemplo, la entrada por teclado, si mandara un Color.CIEL , falla, error
+
+
+
+puedo asociar valores a los enums
+como con un constructor, privado
+porque nadie mas que la lista, puede crearlos
+ej
+Medio de pago
+EFECTIVO(0,0),
+DEBITO(0,10),
+
+
+
